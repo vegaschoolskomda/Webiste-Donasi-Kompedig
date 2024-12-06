@@ -1,0 +1,135 @@
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'open sans'sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d9f0ff;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.kompedig {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+    padding: 10px 10px 10px;
+    font-family: courier;
+    color: #364f6b;
+    text-decoration: none;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    line-height: 35px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+nav u li  {
+float: left;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+color: #9fdfee;
+transition: 1s;
+text-shadow: 1px 2px 4px ;
+}
+
+.donation-section {
+    display: flex;
+padding-left: 8vh;
+    gap: 50px;
+    padding-bottom: 5%;
+    width: 200vh;
+}
+
+.donation {
+    background-color: #cccccc;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.donation img {
+    width: 55vh;
+    height: auto;
+    border-radius: 5px;
+}
+
+.donation img:hover {
+    width: 55vh;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px#818585;
+}
+
+.donation h3 {
+    font-size: 18px;
+    margin: 3vh 0;
+    color: #333333;
+}
+
+.donation p {
+    margin: 2vh;
+    color: #555555;
+}
+
+.donation a p {
+    margin: 10px 0;
+    color: #0056b3;
+    font-size:2vh;
+    background-color: rgba(208, 208, 205, 0.555);
+    border: 1px solid white;
+    border-radius: 10px;
+padding: 3px;
+}
+
+.donation a p:hover {
+    margin: 10px 0;
+    color: #235a95;
+    font-size: 2vh;
+    background-color: rgb(208, 208, 205);
+    border: 2px solid white;
+    border-radius: 10px;
+padding: 3px;
+}
+

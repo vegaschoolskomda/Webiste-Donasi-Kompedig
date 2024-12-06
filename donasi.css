@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #99f0ff;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    line-height: 8vh;
+    position: sticky;
+    top: 0;
+    position: fixed
+}
+
+
+.logo a {
+    font-size: 3vh;
+    font-weight: 800;
+    float: left;
+    padding: 10px 10px 10px;
+    font-family: courier;
+    color: #364f6b;
+    text-decoration: none;
+}
+
+.menu {
+    float: right;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-right: 5vh;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+color: #6c9aa4;
+transition: 1s;
+text-shadow: 1px 2px 4px ;
+}
+
+.payment {
+    padding: 4rem 0;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.payment h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.payment p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.payment-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group a {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background: #2e484f;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-group a:hover {
+    background: #1f4142;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
